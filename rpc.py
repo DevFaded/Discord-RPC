@@ -3,14 +3,7 @@ import time
 
 RPC = Presence("clienid")
 RPC.connect()
-RPC.update(
-    details="nah bro",
-    state="in nigga",
-    large_image="largeimagekei", 
-    large_text="nobro",
-    small_image="smallimagekei",
-    small_text="popadise"
-)
+RPC.update(details="nah bro", state="in nigga", large_image="largeimagekei", large_text="nobro", small_image="smallimagekei", small_text="popadise")
 
 print("rpc running")
 try:
